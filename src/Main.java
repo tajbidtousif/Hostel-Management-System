@@ -166,3 +166,14 @@ else if (choice == 3) {
         }
 
     }
+
+       // ************************* Emergency Doctor Services Method ****************************
+
+    public static void emergencyDoctorServices() {
+        System.out.println("\t\t\t\t\tEmergency Doctor Services");
+        System.out.println("\t\t\t\t\t--------------------------");
+
+        System.out.print(" Saturday , Sunday and Monday: \n\n");
+        System.out.print("  Dr.Hezbulla jibon \n");
+        System.out.print("  Time : 2 p.m - 5 p.m\n");
+        System.out.print("  Medicine specialist
