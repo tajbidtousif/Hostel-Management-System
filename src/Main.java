@@ -56,3 +56,27 @@ public class Main {
                     menu();
 
         }
+
+else if (choice == 3) {
+
+            emergencyDoctorServices();
+
+            if(goBack())
+                    menu();
+        }
+
+        else if (choice == 4) {
+            
+            securityPanel();
+
+            if(goBack())
+                    menu();
+
+        }
+
+        else if (choice == 5) {
+
+            System.out.print("1. Boys Registured List\n");
+            System.out.print("2. Girls Registured List\n");
+            System.out.print("Enter the number of your choice: ");
+
