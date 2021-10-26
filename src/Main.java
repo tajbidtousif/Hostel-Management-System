@@ -167,7 +167,7 @@ else if (choice == 3) {
 
     }
 
-       // ************************* Emergency Doctor Services Method ****************************
+     // *********************** Emergency Doctor Services Method **************************
 
     public static void emergencyDoctorServices() {
         System.out.println("\t\t\t\t\tEmergency Doctor Services");
@@ -176,4 +176,18 @@ else if (choice == 3) {
         System.out.print(" Saturday , Sunday and Monday: \n\n");
         System.out.print("  Dr.Hezbulla jibon \n");
         System.out.print("  Time : 2 p.m - 5 p.m\n");
-        System.out.print("  Medicine specialist
+        System.out.print("  Medicine specialist \n");
+        System.out.print(" mobile : 014******* \n\n\n");
+        System.out.print(" Tuesdasy , Wednesday and Trusday: \n\n");
+        System.out.print(" Dr.Shishir Boshak \n");
+        System.out.print(" Time : 2 p.m - 5 p.m\n");
+        System.out.print(" Medicine specialist \n");
+        System.out.print(" mobile : 017******** \n\n\n");
+
+        System.out.print(" Friday \n");
+        System.out.print(" Dr, N.K Sinha \n");
+        System.out.print(" Time : 2 p.m - 5 p.m\n");
+        System.out.print(" ENT specialist\n");
+        System.out.print(" mobile : 017******** \n\n\n");
+
+    } 
