@@ -80,3 +80,25 @@ else if (choice == 3) {
             System.out.print("2. Girls Registured List\n");
             System.out.print("Enter the number of your choice: ");
 
+
+            int gender = input.nextInt();
+            input.nextLine();
+
+            if (gender == 1) {
+
+                showDetails(boy);
+
+               
+            }
+
+            else if (gender == 2) {
+                showDetails(girl);
+               
+            } 
+        }
+        
+
+        if(goBack()) {
+            menu();
+        }
+    }
