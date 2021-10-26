@@ -191,3 +191,26 @@ else if (choice == 3) {
         System.out.print(" mobile : 017******** \n\n\n");
 
     } 
+
+    // ************************Security Panel Method***************************
+
+    public static void securityPanel() 
+    {
+        System.out.print("\t\t\t\t\tSecurity Panel\n");
+        System.out.print("\t\t\t\t\t-----------");
+
+        System.out.println();
+        System.out.println();
+
+        System.out.print("Hostel security:- \n\n ");
+        System.out.print("Shah Tajbid Tousif\n");
+        System.out.print(" position : Senior security Guard \n");
+        System.out.print(" mobile number : 01784313631 \n");
+        System.out.print(" Duty time : 6am - 6pm \n\n ");
+
+        System.out.print("Shuvo Goswami\n");
+        System.out.print(" position : Senior security Guard \n");
+        System.out.print(" mobile number : 01793173027 \n");
+        System.out.print(" Duty time : 7 pm -  5 am \n");
+
+    }
