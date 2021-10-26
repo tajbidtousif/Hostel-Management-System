@@ -242,3 +242,31 @@ else if (choice == 3) {
         System.out.print("7.Friday\tParatha,Vegetable\t\tPolao,Chicken curry,Salad\tPolao,fish curry,Dal\n\n");
 
     }
+
+    // ************************* goBack Method ****************************
+    
+    public static boolean goBack() {
+    
+        Scanner input = new Scanner(System.in);
+        System.out.println("1. To Go Back To The Menu Option.");
+        System.out.println("2. Exit.");
+        System.out.print("Enter 1 or 2: ");
+        int choice = input.nextInt();
+        input.nextLine();
+
+        if(choice == 1)
+        {
+            return true;
+        }
+        else if(choice == 2)
+        {
+            System.out.println("Thank you for visiting!");
+        }
+        else{
+
+            System.out.println("Invalid Number! Try again.");
+        }
+        
+        return false;
+    }
+}
