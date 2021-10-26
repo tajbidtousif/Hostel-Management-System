@@ -35,3 +35,6 @@ public class Main {
         System.out.println("3. Emergency Doctor Services");
         System.out.println("4. Safety");
         System.out.println("5. Registered Members List");
+
+        System.out.print("\nEnter the number of your choice: ");
+
