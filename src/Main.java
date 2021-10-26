@@ -40,3 +40,19 @@ public class Main {
 
         int choice = input.nextInt();
         input.nextLine();
+        
+        // ************************* Main Menubar selecing by user of Management System ****************************
+
+
+        if (choice == 1) {
+            registration();
+
+        }
+
+        else if (choice == 2) {
+            foodCircle();
+
+            if(goBack())
+                    menu();
+
+        }
