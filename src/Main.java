@@ -35,3 +35,10 @@ public class Main {
         System.out.println("3. Emergency Doctor Services");
         System.out.println("4. Safety");
         System.out.println("5. Registered Members List");
+
+        
+        
+        int choice = input.nextInt();
+        input.nextLine();
+
+// ************************* Main Menubar selecing by user of Management System ****************************
