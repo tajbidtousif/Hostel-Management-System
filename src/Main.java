@@ -214,3 +214,31 @@ else if (choice == 3) {
         System.out.print(" Duty time : 7 pm -  5 am \n");
 
     }
+
+    // *********************** FOOD Circle Method **************************
+
+    public static void foodCircle() {
+
+        System.out.print("\t\t\t\t\tFood Cycle\n");
+        System.out.print("\t\t\t\t\t-----------");
+
+        System.out.println();
+        System.out.println();
+
+        System.out.print("Day\t\tBreakfast\t\t\tLunch\t\t\t\tDinner\n\n");
+
+        System.out.print("1.Saturday\tBread,Omelet,Juice\t\tRice,Fish curry,Dal\t\tRice,Vegetable,Dal\n\n");
+
+        System.out.print("2.Sunday\tBhuna khichuri,Boiled egg\tRice,Chicken curry\t\tRice,dal,Chicken curry\n\n");
+
+        System.out.print("3.Monday\tParatha,Vegetable\t\tRice,Mixed vegetable\t\tRice,Fish curry,Dal\n\n");
+
+        System.out.print("4.Tuesday\tPlain khichuri,Boiled egg\tRice,Chicken curry\t\tRice,Dal,Chicken curry\n\n");
+
+        System.out.print("5.Wednesday\tPolao,Chicken curry\t\tRice,Mixed vegetable\t\tRice,fish curry\n\n");
+
+        System.out.print("6.Thursday\tSeasonal fruits,Juice\t\tRice,Chicken curry\t\tRice, dal,Chicken curry\n\n");
+
+        System.out.print("7.Friday\tParatha,Vegetable\t\tPolao,Chicken curry,Salad\tPolao,fish curry,Dal\n\n");
+
+    }
