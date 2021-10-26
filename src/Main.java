@@ -80,7 +80,6 @@ else if (choice == 3) {
             System.out.print("2. Girls Registured List\n");
             System.out.print("Enter the number of your choice: ");
 
-
             int gender = input.nextInt();
             input.nextLine();
 
@@ -101,4 +100,69 @@ else if (choice == 3) {
         if(goBack()) {
             menu();
         }
+    }
+
+       // ************************* Registration Part **************************** */
+
+    public static void registration() {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("1. Boys" + " (" + (100 - boy.size()) + " seats available)\n");
+        System.out.print("2. Girls" + " (" + (100 - girl.size()) + " seats available)\n");
+ 
+        System.out.print("Enter the number of your choice: ");
+        int choice = input.nextInt();
+        input.nextLine();
+
+        if (choice == 1) 
+        {
+            int availableSeats = 100 - boy.size();
+            if (availableSeats == 0) 
+            {
+                System.out.println("Sorry, No Seat Available for Boys!");
+            }
+
+            else
+             {
+                Student st = new Student();
+                st.register(boy);
+
+                System.out.println("\nSuccessfully Registured!\n");
+
+                if(goBack())
+                    menu();
+            }
+        }
+
+
+        else if (choice == 2)
+         {
+            int availableSeats = 100 - girl.size();
+            if (availableSeats == 0) {
+                System.out.println("Sorry, No Seat Available for Girls");
+            } else {
+                Student st = new Student();
+                st.register(girl);
+
+                System.out.println("\nSuccessfully Registured!\n");
+
+                if(goBack())
+                    menu();
+            }
+
+        }
+        
+
+    }
+    
+    // ************************* This Method showing Students List by using Foreach Loop ****************************
+
+    public static void showDetails(ArrayList<Student> list) {
+
+        for (Student student : list) {
+
+            student.showInfo();
+        }
+
     }
