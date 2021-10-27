@@ -267,7 +267,7 @@ else if (choice == 3) {
             System.out.println("Invalid Number! Try again.");
         }
         
-        return false;
+       
     }
 }
 
