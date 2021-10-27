@@ -11,7 +11,7 @@ public class Student {
     public void register(ArrayList<Student> stu_list) {
 
         Scanner input = new Scanner(System.in);
-        // Student newStudent = new Student();
+     
         System.out.printf("Enter Your Name: ");
         name = input.nextLine();
         System.out.printf("Enter Your ID: ");
