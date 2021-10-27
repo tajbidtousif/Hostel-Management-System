@@ -8,8 +8,7 @@ public class Student {
     public int batch;
     public String id, name;
 
-    public void register(ArrayList<Student> stu_list) 
-    {
+    public void register(ArrayList<Student> stu_list) {
 
         Scanner input = new Scanner(System.in);
         // Student newStudent = new Student();
