@@ -22,7 +22,6 @@ public class Student {
         input.nextLine();
 
         stu_list.add(this);
-
     }
 
     public void showInfo() 
