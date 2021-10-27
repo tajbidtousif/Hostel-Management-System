@@ -23,7 +23,6 @@ public class Student {
 
         stu_list.add(this);
     }
-
     public void showInfo() 
     {
         System.out.printf(name + " " + id + " " + batch + "\n");
