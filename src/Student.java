@@ -19,10 +19,12 @@ public class Student {
         id = input.nextLine();
         System.out.printf("Enter Your Batch: ");
         batch = input.nextInt();
+        
         input.nextLine();
 
         stu_list.add(this);
     }
+    
     public void showInfo() 
     {
         System.out.printf(name + " " + id + " " + batch + "\n");
