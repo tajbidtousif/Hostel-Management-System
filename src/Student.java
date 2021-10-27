@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 // ********* This Student  class have a parameterized method called register which is getting student information input from user ***********
 
 public class Student {
