@@ -21,8 +21,6 @@ public class Student {
         batch = input.nextInt();
         input.nextLine();
 
-     
-
         stu_list.add(this);
 
     }
