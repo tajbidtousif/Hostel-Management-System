@@ -14,7 +14,7 @@ public class Main {
         girl = new ArrayList<Student>();
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter YOur Name: ");
+        System.out.print("Enter Your Name: ");
         String name = input.next();
         System.out.println("Welcome, "+name);
         menu();
